@@ -14,7 +14,7 @@
                 var out = rand.replace('[#]', Math.floor(Math.random() * (21 - 10 + 1)) + 10);
 
                 $('#title').html(out);
-            });
+            })
         });
     </script>
     <style>
@@ -46,12 +46,11 @@
         }
 
         #title {
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-            font-family: "Love Ya Like A Sister";
-            font-size: 60pt;
-            color: #555;
+            margin-left: 1em;
+            margin-right: 1em;
+            font-family: 'Love Ya Like A Sister', fantasy;
+            font-size: 80pt;
+            color: #2e3192;
             text-align: center;
         }
     </style>
