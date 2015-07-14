@@ -13,6 +13,13 @@
 
                 var out = rand.replace('[#]', Math.floor(Math.random() * (21 - 10 + 1)) + 10);
 
+                if (out == 'How low can fields go?') {
+                    $('#title').css('color', '#420');
+                    $('#title').css('font-size', '100pt');
+                    $('#title').css('margin-bottom', '0.2em');
+                    $('.middle').css('vertical-align', 'bottom');
+                }
+
                 $('#title').html(out);
             })
         });
