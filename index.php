@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BuzzField</title>
-    <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+    <link href=""//fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script>
         $(document).ready(function () {
